@@ -1,0 +1,122 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Clasificacion;
+use Illuminate\Database\Seeder;
+
+class ClasificacionSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Clasificacion::insert(
+            [
+                ['clasificacion' => 'Generalidades', 'codigo_dewey' => '000'],
+                ['clasificacion' => 'Bibliografía', 'codigo_dewey' => '010'],
+                ['clasificacion' => 'Bibliotecología y ciencias de la información ', 'codigo_dewey' => '020'],
+                ['clasificacion' => 'Obras enciclopédicas generales', 'codigo_dewey' => '030'],
+                ['clasificacion' => '(No asignado) ', 'codigo_dewey' => '040'],
+                ['clasificacion' => 'Publicaciones seriadas generales', 'codigo_dewey' => '050'],
+                ['clasificacion' => 'Organizaciones generales y museología', 'codigo_dewey' => '060'],
+                ['clasificacion' => 'Medios noticiosos, periodísmo, publicación', 'codigo_dewey' => '070'],
+                ['clasificacion' => 'Colecciones generales', 'codigo_dewey' => '080'],
+                ['clasificacion' => 'Manuscritos y libros raros', 'codigo_dewey' => '090'],
+                ['clasificacion' => 'Filosofía y Psicología', 'codigo_dewey' => '100'],
+                ['clasificacion' => 'Metafísica', 'codigo_dewey' => '110'],
+                ['clasificacion' => ' Epistemología, causalidad, género humano', 'codigo_dewey' => '120'],
+                ['clasificacion' => 'Fenómenos paranormales', 'codigo_dewey' => '130'],
+                ['clasificacion' => 'Escuelas filosóficas específicas', 'codigo_dewey' => '140'],
+                ['clasificacion' => 'Psicología', 'codigo_dewey' => '150'],
+                ['clasificacion' => 'Lógica', 'codigo_dewey' => '160'],
+                ['clasificacion' => 'Ética (Filosofía moral)', 'codigo_dewey' => '170'],
+                ['clasificacion' => 'Filosofía antigua , medieval, oriental', 'codigo_dewey' => '180'],
+                ['clasificacion' => 'Filosofía moderna occidental', 'codigo_dewey' => '190'],
+                ['clasificacion' => 'Religión', 'codigo_dewey' => '200'],
+                ['clasificacion' => 'Filosofía y teoría de la Religión', 'codigo_dewey' => '210'],
+                ['clasificacion' => 'La Biblia', 'codigo_dewey' => '220'],
+                ['clasificacion' => 'Cristianismo Teología Cristiana', 'codigo_dewey' => '230'],
+                ['clasificacion' => 'Moral cristiana y teología piadosa', 'codigo_dewey' => '240'],
+                ['clasificacion' => 'Órdenes cristianas e iglesia local', 'codigo_dewey' => '250'],
+                ['clasificacion' => 'Teología social y eclesiástica', 'codigo_dewey' => '260'],
+                ['clasificacion' => 'Historia del cristianismo y de la iglesia cristiana', 'codigo_dewey' => '270'],
+                ['clasificacion' => 'Confesiones y sectas cristianas', 'codigo_dewey' => '280'],
+                ['clasificacion' => 'Religión comparada y otras religiones', 'codigo_dewey' => '290'],
+                ['clasificacion' => 'Ciencias sociales', 'codigo_dewey' => '300'],
+                ['clasificacion' => 'Colecciones de estadística general', 'codigo_dewey' => '310'],
+                ['clasificacion' => 'Ciencia política', 'codigo_dewey' => '320'],
+                ['clasificacion' => 'Economía', 'codigo_dewey' => '330'],
+                ['clasificacion' => 'Derecho', 'codigo_dewey' => '340'],
+                ['clasificacion' => 'Administración pública y ciencia militar', 'codigo_dewey' => '350'],
+                ['clasificacion' => 'Problemas y servicios sociales; asociaciones', 'codigo_dewey' => '360'],
+                ['clasificacion' => 'Educación', 'codigo_dewey' => '370'],
+                ['clasificacion' => 'Comercio , comunicaciones, transporte', 'codigo_dewey' => '380'],
+                ['clasificacion' => 'Costumbres, etiqueta, folclore', 'codigo_dewey' => '390'],
+                ['clasificacion' => 'Lenguas', 'codigo_dewey' => '400'],
+                ['clasificacion' => 'Lingüística', 'codigo_dewey' => '410'],
+                ['clasificacion' => 'Inglés e inglés antigüo', 'codigo_dewey' => '420'],
+                ['clasificacion' => 'Lenguas germánicas. Alemán', 'codigo_dewey' => '430'],
+                ['clasificacion' => 'Lenguas romances. Francés', 'codigo_dewey' => '440'],
+                ['clasificacion' => 'Italiano, rumano, retorromano', 'codigo_dewey' => '450'],
+                ['clasificacion' => 'Lenguas española y portuguesa', 'codigo_dewey' => '460'],
+                ['clasificacion' => 'Lenguas itálicas. Latín', 'codigo_dewey' => '470'],
+                ['clasificacion' => 'Lenguas helénicas. Griego clásico', 'codigo_dewey' => '480'],
+                ['clasificacion' => 'Otras lenguas', 'codigo_dewey' => '490'],
+                ['clasificacion' => 'Ciencias naturales y matemáticas', 'codigo_dewey' => '500'],
+                ['clasificacion' => 'Matemáticas', 'codigo_dewey' => '510'],
+                ['clasificacion' => 'Astronomía y ciencias afines', 'codigo_dewey' => '520'],
+                ['clasificacion' => 'Física', 'codigo_dewey' => '530'],
+                ['clasificacion' => 'Química y ciencias afines', 'codigo_dewey' => '540'],
+                ['clasificacion' => 'Ciencias de la tierra', 'codigo_dewey' => '550'],
+                ['clasificacion' => 'Paleontología. Paleozoología', 'codigo_dewey' => '560'],
+                ['clasificacion' => 'Ciencias de la vida. Biología', 'codigo_dewey' => '570'],
+                ['clasificacion' => 'Plantas', 'codigo_dewey' => '580'],
+                ['clasificacion' => 'Animales', 'codigo_dewey' => '590'],
+                ['clasificacion' => 'Tecnología (Ciencias aplicadas)', 'codigo_dewey' => '600'],
+                ['clasificacion' => 'Ciencias médicas. Medicina', 'codigo_dewey' => '610'],
+                ['clasificacion' => 'Ingeniería y operaciones afines', 'codigo_dewey' => '620'],
+                ['clasificacion' => 'Agricultura y tecnologías relacionadas', 'codigo_dewey' => '630'],
+                ['clasificacion' => 'Economía doméstica y vida familiar', 'codigo_dewey' => '640'],
+                ['clasificacion' => 'Gerencia y servicios auxiliares', 'codigo_dewey' => '650'],
+                ['clasificacion' => 'Ingeniería química', 'codigo_dewey' => '660'],
+                ['clasificacion' => 'Manufactura', 'codigo_dewey' => '670'],
+                ['clasificacion' => 'Manufactura para usos específicos', 'codigo_dewey' => '680'],
+                ['clasificacion' => 'Construcción', 'codigo_dewey' => '690'],
+                ['clasificacion' => 'Las artes. Bellas artes y artes decorativas', 'codigo_dewey' => '700'],
+                ['clasificacion' => 'Urbanismo y arte paisajístico', 'codigo_dewey' => '710'],
+                ['clasificacion' => 'Arquitectura', 'codigo_dewey' => '720'],
+                ['clasificacion' => 'Artes plásticas. Escultura', 'codigo_dewey' => '730'],
+                ['clasificacion' => 'Dibujo y artes decorativas', 'codigo_dewey' => '740'],
+                ['clasificacion' => 'Pintura y pinturas', 'codigo_dewey' => '750'],
+                ['clasificacion' => 'Artes gráficas. Arte de grabar y grabados', 'codigo_dewey' => '760'],
+                ['clasificacion' => 'Fotografía y fotografías', 'codigo_dewey' => '770'],
+                ['clasificacion' => 'Música', 'codigo_dewey' => '780'],
+                ['clasificacion' => 'Artes recreativas y de la actualización', 'codigo_dewey' => '790'],
+                ['clasificacion' => 'Literatura y retórica', 'codigo_dewey' => '800'],
+                ['clasificacion' => 'Literatura norteamericana en inglés', 'codigo_dewey' => '810'],
+                ['clasificacion' => 'Literatura inglesa e inglesa antigua', 'codigo_dewey' => '820'],
+                ['clasificacion' => 'Literatura de las lenguas germánicas', 'codigo_dewey' => '830'],
+                ['clasificacion' => 'Literatura de las lenguas romances', 'codigo_dewey' => '840'],
+                ['clasificacion' => 'Literaturas italiana, rumana, retorromana', 'codigo_dewey' => '850'],
+                ['clasificacion' => 'Literatura española y portuguesa', 'codigo_dewey' => '860'],
+                ['clasificacion' => 'Literaturas itálicas. Literatura latina', 'codigo_dewey' => '870'],
+                ['clasificacion' => 'Literaturas helénicas. Literatura griega clásica', 'codigo_dewey' => '880'],
+                ['clasificacion' => 'Literaturas de otras lenguas', 'codigo_dewey' => '890'],
+                ['clasificacion' => 'Geografía e historia', 'codigo_dewey' => '900'],
+                ['clasificacion' => 'Geografía y viajes', 'codigo_dewey' => '910'],
+                ['clasificacion' => 'Biografía, genealogía, insignias', 'codigo_dewey' => '920'],
+                ['clasificacion' => 'Historia del mundo antiguo hasta ca. 499', 'codigo_dewey' => '930'],
+                ['clasificacion' => 'Historia general de Europa', 'codigo_dewey' => '940'],
+                ['clasificacion' => 'Historia general de Asia. Lejano Oriente', 'codigo_dewey' => '950'],
+                ['clasificacion' => 'Historia general de África', 'codigo_dewey' => '960'],
+                ['clasificacion' => 'Historia general de América del Norte', 'codigo_dewey' => '970'],
+                ['clasificacion' => 'Historia general de América del Sur', 'codigo_dewey' => '980'],
+                ['clasificacion' => 'Historia general de otras áreas', 'codigo_dewey' => '990']
+            ]
+        );
+    }
+}

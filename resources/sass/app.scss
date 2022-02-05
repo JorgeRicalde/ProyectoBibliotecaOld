@@ -1,0 +1,102 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic");
+@import "~@fortawesome/fontawesome-free/css/all.css";
+// OverlayScrollbars
+@import "~overlayscrollbars/css/OverlayScrollbars.css";
+// iCheck
+@import "~icheck-bootstrap/icheck-bootstrap.css";
+// Bootstrap
+// Already imported by AdminLTE
+//@import '~bootstrap/scss/bootstrap';
+@import "../../public/vendor/datatables/css/dataTables.bootstrap4.min.css";
+@import "../../public/vendor/datatables-plugins/buttons/css/buttons.bootstrap4.min.css";
+@import "../../public/vendor/datatables-plugins/responsive/css/responsive.bootstrap4.min.css";
+
+//Plugins Descargados
+
+//Plugin Pace
+@import "../../public/vendor/pace-progress/themes/blue/pace-theme-flash.css";
+//Plugin Select2
+@import "../../public/vendor/select2/css/select2.min.css";
+@import "../../public/vendor/select2-bootstrap4-theme/select2-bootstrap4.min.css";
+//Plugin DateRangePicker
+@import "../../public/vendor/daterangepicker/daterangepicker.css";
+//Plugin TempusDominusBs4
+@import "../../public/vendor/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css";
+//Plugin BootstrapSelect
+@import "../../public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css";
+//Plugin Summernote
+@import "../../public/vendor/summernote/summernote-bs4.min.css";
+
+//select2.blade.php
+.input-group-sm .select2-selection--single {
+    height: calc(1.8125rem + 2px) !important;
+}
+
+.input-group-sm .select2-selection--single .select2-selection__rendered,
+.input-group-sm .select2-selection--single .select2-selection__placeholder {
+    font-size: 0.875rem !important;
+    line-height: 2.125;
+}
+
+.input-group-sm .select2-selection--multiple {
+    min-height: calc(1.8125rem + 2px) !important;
+}
+
+.input-group-sm .select2-selection--multiple .select2-selection__rendered {
+    font-size: 0.875rem !important;
+    line-height: normal;
+}
+
+.input-group-lg .select2-selection--single {
+    height: calc(2.875rem + 2px) !important;
+}
+
+.input-group-lg .select2-selection--single .select2-selection__rendered,
+.input-group-lg .select2-selection--single .select2-selection__placeholder {
+    font-size: 1.25rem !important;
+    line-height: 2.25;
+}
+
+.input-group-lg .select2-selection--multiple {
+    min-height: calc(2.875rem + 2px) !important;
+}
+
+.input-group-lg .select2-selection--multiple .select2-selection__rendered {
+    font-size: 1.25rem !important;
+    line-height: 1.7;
+}
+
+//input-file.blade.php
+.input-group-sm .custom-file-label:after {
+    height: 1.8125rem;
+    line-height: 1.25;
+}
+
+.input-group-sm .custom-file-label {
+    height: calc(1.8125rem + 2px);
+    line-height: 1.25;
+}
+
+.input-group-sm .custom-file {
+    height: calc(1.8125rem + 2px);
+    font-size: 0.875rem;
+}
+
+.input-group-lg .custom-file-label:after {
+    height: 2.875rem;
+    line-height: 1.6;
+}
+
+.input-group-lg .custom-file-label {
+    height: calc(2.875rem + 2px);
+    line-height: 1.6;
+}
+
+.input-group-lg .custom-file {
+    height: calc(2.875rem + 2px);
+    font-size: 1.25rem;
+}
+
+// AdminLTE
+@import "../../vendor/almasaeed2010/adminlte/dist/css/adminlte.css";
